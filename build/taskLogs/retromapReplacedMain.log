@@ -1,0 +1,676 @@
+Processing 25 files
+Start Processing: com/freeranger/rebornbits/ClientProxyRebornBits.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: com/freeranger/rebornbits/ClientProxyRebornBits.java
+
+Start Processing: com/freeranger/rebornbits/ElementsRebornBits.java
+FOUND CONSTR method com/freeranger/rebornbits/ElementsRebornBits/ElementsRebornBits ()V com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class com/freeranger/rebornbits/ElementsRebornBits/ModElement
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3677,3685]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4066,4071]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4080,4088]::isRemote->field_72995_K
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+Rename field net/minecraft/entity/Entity/world[4176,4181]::world->field_70170_p
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+Rename field net/minecraft/entity/Entity/world[4275,4280]::world->field_70170_p
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+Rename field net/minecraft/entity/Entity/world[4789,4794]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4803,4811]::isRemote->field_72995_K
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+Rename field net/minecraft/entity/Entity/world[4903,4908]::world->field_70170_p
+New Key: class com/freeranger/rebornbits/RebornBitsVariables
+FOUND CONSTR method com/freeranger/rebornbits/ElementsRebornBits/ModElement/ModElement (Lcom/freeranger/rebornbits/ElementsRebornBits;I)V com/freeranger/rebornbits/ElementsRebornBits/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+Import: java.util.Random
+Import: java.util.Map
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Collections
+Import: java.util.ArrayList
+Import: java.lang.annotation.RetentionPolicy
+Import: java.lang.annotation.Retention
+End  Processing: com/freeranger/rebornbits/ElementsRebornBits.java
+
+Start Processing: com/freeranger/rebornbits/IProxyRebornBits.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: com/freeranger/rebornbits/IProxyRebornBits.java
+
+Start Processing: com/freeranger/rebornbits/RebornBits.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.Item
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+End  Processing: com/freeranger/rebornbits/RebornBits.java
+
+Start Processing: com/freeranger/rebornbits/RebornBitsVariables.java
+FOUND CONSTR method com/freeranger/rebornbits/RebornBitsVariables/MapVariables/MapVariables ()V com/freeranger/rebornbits/RebornBitsVariables/MapVariables
+FOUND CONSTR method com/freeranger/rebornbits/RebornBitsVariables/MapVariables/MapVariables (Ljava/lang/String;)V com/freeranger/rebornbits/RebornBitsVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[832,843]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[912,922]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1019,1028]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1049,1057]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1357,1370]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1373,1386]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1493,1506]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1509,1516]::setData->func_75745_a
+FOUND CONSTR method com/freeranger/rebornbits/RebornBitsVariables/WorldVariables/WorldVariables ()V com/freeranger/rebornbits/RebornBitsVariables/WorldVariables
+FOUND CONSTR method com/freeranger/rebornbits/RebornBitsVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V com/freeranger/rebornbits/RebornBitsVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1854,1865]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1934,1944]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2041,2050]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2071,2079]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2279,2287]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2448,2461]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2593,2600]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2959,2965]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2974,2988]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2997,3013]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3071,3077]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3086,3091]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3127,3139]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3142,3158]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3199,3211]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3214,3220]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3228,3233]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3425,3434]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3594,3602]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3671,3684]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3687,3694]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3784,3791]::setData->func_75745_a
+FOUND CONSTR method com/freeranger/rebornbits/RebornBitsVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V com/freeranger/rebornbits/RebornBitsVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method com/freeranger/rebornbits/RebornBitsVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V com/freeranger/rebornbits/RebornBitsVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4280,4290]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4548,4559]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.World
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.client.Minecraft
+End  Processing: com/freeranger/rebornbits/RebornBitsVariables.java
+
+Start Processing: com/freeranger/rebornbits/ServerProxyRebornBits.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: com/freeranger/rebornbits/ServerProxyRebornBits.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockCobbledDeepslate.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockCobbledDeepslate/BlockCobbledDeepslate (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockCobbledDeepslate
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1368,1384]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockCobbledDeepslate/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockCobbledDeepslate/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1569,1573]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1590,1608]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1629,1641]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1653,1658]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1709,1720]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1732,1745]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1755,1768]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1778,1793]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1802,1816]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[1829,1844]::BUILDING_BLOCKS->field_78030_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockCobbledDeepslate.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks/BlockCrackedDeepslateBricks (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1392,1408]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1599,1603]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1620,1638]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1665,1677]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1689,1694]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1710,1721]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1733,1746]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1756,1769]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1779,1794]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1803,1817]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[1830,1845]::BUILDING_BLOCKS->field_78030_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslate.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslate/BlockDeepslate (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslate
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1549,1565]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslate/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslate/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1738,1742]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1759,1777]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1791,1803]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1815,1820]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1871,1882]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1894,1907]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1917,1930]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1940,1955]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1964,1978]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[1991,2006]::BUILDING_BLOCKS->field_78030_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslate.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateBricks.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateBricks/BlockDeepslateBricks (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateBricks
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1364,1380]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateBricks/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateBricks/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1564,1568]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1585,1603]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1623,1635]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1647,1652]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1668,1679]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1691,1704]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1714,1727]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1737,1752]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1761,1775]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[1788,1803]::BUILDING_BLOCKS->field_78030_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateBricks.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateCoalOre/BlockDeepslateCoalOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateCoalOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1654,1670]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateCoalOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateCoalOre/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1855,1859]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1876,1894]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1915,1927]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1939,1944]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1960,1971]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1985,1998]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2008,2021]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2031,2046]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2055,2069]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2082,2097]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/init/Items/COAL[2478,2482]::COAL->field_151044_h
+Rename method net/minecraft/util/math/MathHelper/getInt (Ljava/util/Random;II)I[2643,2649]::getInt->func_76136_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.init.Items
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.minecraft.util.math.MathHelper
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateDiamondOre/BlockDeepslateDiamondOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateDiamondOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1719,1735]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateDiamondOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateDiamondOre/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1923,1927]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1944,1962]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1986,1998]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[2010,2015]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2066,2077]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2091,2104]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2114,2127]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2137,2152]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2161,2175]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2188,2203]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/init/Items/DIAMOND[2582,2589]::DIAMOND->field_151045_i
+Rename method net/minecraft/util/math/MathHelper/getInt (Ljava/util/Random;II)I[2745,2751]::getInt->func_76136_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.init.Items
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.properties.PropertyBool
+Import: net.minecraft.util.math.MathHelper
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre/BlockDeepslateEmeraldOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1729,1745]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1933,1937]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1954,1972]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1996,2008]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[2020,2025]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2041,2052]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2066,2079]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2089,2102]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2112,2127]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2136,2150]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2163,2178]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/init/Items/EMERALD[2557,2564]::EMERALD->field_151166_bC
+Rename method net/minecraft/util/math/MathHelper/getInt (Ljava/util/Random;II)I[2721,2727]::getInt->func_76136_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.init.Items
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.math.MathHelper
+Import: java.util.Random
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateGoldOre/BlockDeepslateGoldOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateGoldOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1369,1385]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateGoldOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateGoldOre/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1570,1574]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1591,1609]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1630,1642]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1654,1659]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1710,1721]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1735,1748]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1758,1771]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1781,1796]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1805,1819]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[1832,1847]::BUILDING_BLOCKS->field_78030_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateIronOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateIronOre/BlockDeepslateIronOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateIronOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1369,1385]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateIronOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateIronOre/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1570,1574]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1591,1609]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1630,1642]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1654,1659]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1675,1686]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1698,1711]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1721,1734]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1744,1759]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1768,1782]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[1795,1810]::BUILDING_BLOCKS->field_78030_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateIronOre.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre/BlockDeepslateLapisLazuliOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1640,1656]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1848,1852]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1869,1887]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1915,1927]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1939,1944]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1960,1971]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1985,1998]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2008,2021]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2031,2046]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2055,2069]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2082,2097]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/init/Items/DYE[2274,2277]::DYE->field_151100_aR
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.init.Items
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre.java
+
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre/BlockDeepslateRedstoneOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1672,1688]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre/BlockCustom
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1893,1911]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1936,1948]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1960,1965]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1981,1992]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2006,2019]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2029,2042]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2052,2067]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2076,2090]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2103,2118]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/init/Items/REDSTONE[2410,2418]::REDSTONE->field_151137_ax
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.init.Items
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.BlockRedstoneOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeCobbledDeepslateToDeepslateSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeCobbledDeepslateToDeepslateSmelting/RecipeCobbledDeepslateToDeepslateSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeCobbledDeepslateToDeepslateSmelting
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: com.freeranger.rebornbits.block.BlockDeepslate
+Import: com.freeranger.rebornbits.block.BlockCobbledDeepslate
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeCobbledDeepslateToDeepslateSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateBricksToCrackedDeepslateBricksSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateBricksToCrackedDeepslateBricksSmelting/RecipeDeepslateBricksToCrackedDeepslateBricksSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateBricksToCrackedDeepslateBricksSmelting
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: com.freeranger.rebornbits.block.BlockDeepslateBricks
+Import: com.freeranger.rebornbits.block.BlockCrackedDeepslateBricks
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateBricksToCrackedDeepslateBricksSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting/RecipeDeepslateCoalOreToCoalSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting
+Rename field net/minecraft/init/Items/COAL[777,781]::COAL->field_151044_h
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: com.freeranger.rebornbits.block.BlockDeepslateCoalOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting/RecipeDeepslateDiamondOreToDiamondSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting
+Rename field net/minecraft/init/Items/DIAMOND[795,802]::DIAMOND->field_151045_i
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: com.freeranger.rebornbits.block.BlockDeepslateDiamondOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting/RecipeDeepslateEmeraldOreToEmeraldSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting
+Rename field net/minecraft/init/Items/EMERALD[795,802]::EMERALD->field_151166_bC
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting/RecipeDeepslateGoldOreToGoldIngotSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting
+Rename field net/minecraft/init/Items/GOLD_INGOT[787,797]::GOLD_INGOT->field_151043_k
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: com.freeranger.rebornbits.block.BlockDeepslateGoldOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateIronOreToIronIngotSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateIronOreToIronIngotSmelting/RecipeDeepslateIronOreToIronIngotSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateIronOreToIronIngotSmelting
+Rename field net/minecraft/init/Items/IRON_INGOT[787,797]::IRON_INGOT->field_151042_j
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: com.freeranger.rebornbits.block.BlockDeepslateIronOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateIronOreToIronIngotSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateRedstoneOreToRedstoneDustSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateRedstoneOreToRedstoneDustSmelting/RecipeDeepslateRedstoneOreToRedstoneDustSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateRedstoneOreToRedstoneDustSmelting
+Rename field net/minecraft/init/Items/REDSTONE[809,817]::REDSTONE->field_151137_ax
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: com.freeranger.rebornbits.block.BlockDeepslateRedstoneOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateRedstoneOreToRedstoneDustSmelting.java
+

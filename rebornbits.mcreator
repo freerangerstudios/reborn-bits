@@ -157,7 +157,7 @@
       "name": "DeepslateLapisLazuliOre",
       "type": "block",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
