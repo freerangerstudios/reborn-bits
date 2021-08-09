@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\classes\java\api
 Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\resources\api
 Symbol range map extraction starting
-Processing 24 files
+Processing 25 files
 startProcessing "com/freeranger/rebornbits/ClientProxyRebornBits.java" md5: 032a582919e240709a43a911bbeffa70
 endProcessing "com/freeranger/rebornbits/ClientProxyRebornBits.java"
 
@@ -32,13 +32,13 @@ endProcessing "com/freeranger/rebornbits/block/BlockDeepslate.java"
 startProcessing "com/freeranger/rebornbits/block/BlockDeepslateBricks.java" md5: 77c2cba714406624a2636bf8e0971309
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateBricks.java"
 
-startProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java" md5: 50c4dc6991a25ac62c1cc51d8186c5d8
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java" md5: a9d8eed97b013d2077123636f7ebc630
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java"
 
-startProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java" md5: 4f04bec485070f6f2353cdd765771701
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java" md5: 5063976630bbb0172d9b7110098527eb
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java"
 
-startProcessing "com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java" md5: ee8e3aa1b96f0db4ca3d9c08ad646f30
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java" md5: e84f09d475ee57e575eae004e3ad44fe
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java"
 
 startProcessing "com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java" md5: 65df4d853b504a4bf36d5663657aafa7
@@ -47,7 +47,10 @@ endProcessing "com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java"
 startProcessing "com/freeranger/rebornbits/block/BlockDeepslateIronOre.java" md5: 3e65dcaae4eaa745fa1acd9ad0289c88
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateIronOre.java"
 
-startProcessing "com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre.java" md5: 676e2afdf429feebc2192c1df7a22528
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre.java" md5: 0ccb42c7e07b47cb581bcf406421d3ce
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslateLapisLazuliOre.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre.java" md5: dbd001a7d1e514e4df1d92039f86b0e0
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateRedstoneOre.java"
 
 startProcessing "com/freeranger/rebornbits/item/crafting/RecipeCobbledDeepslateToDeepslateSmelting.java" md5: 2ea4a3dcea573a03a1e58d75c2dd1174
