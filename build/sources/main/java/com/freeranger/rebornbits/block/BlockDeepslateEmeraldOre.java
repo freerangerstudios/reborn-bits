@@ -20,6 +20,10 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.MathHelper;
+
+import java.util.Random;
 
 import com.freeranger.rebornbits.ElementsRebornBits;
 
@@ -57,7 +61,22 @@ public class BlockDeepslateEmeraldOre extends ElementsRebornBits.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(Items.EMERALD, (int) (1)));
+			int dropAmount = 1;
+			if(fortune > 0){
+				int i = RANDOM.nextInt(fortune + 2) - 1;
+
+            	if (i < 0)
+            	{
+                	i = 0;
+            	} 
+            	dropAmount = i+1;
+			}
+			drops.add(new ItemStack(Items.EMERALD, dropAmount, 0));
+		}
+
+		@Override
+		public int getExpDrop(IBlockState state, IBlockAccess reader, BlockPos pos, int fortune){
+			return MathHelper.getInt(RANDOM, 3, 7);
 		}
 	}
 }

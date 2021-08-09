@@ -20,6 +20,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
+import net.minecraft.util.math.MathHelper;
 
 import com.freeranger.rebornbits.ElementsRebornBits;
 
@@ -72,8 +73,7 @@ public class BlockDeepslateCoalOre extends ElementsRebornBits.ModElement {
 
 		@Override
 		public int getExpDrop(IBlockState state, IBlockAccess reader, BlockPos pos, int fortune){
-			int xp = RANDOM.nextInt(2);
-			return xp * 2;
+			return MathHelper.getInt(RANDOM, 0, 2);
 		}
 	}
 }
