@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.1,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CobbledDeepslate"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Deepslate"
+    },
+    "name": "cobbleddeepslatetodeepslatesmelting",
+    "namespace": "mod"
+  }
+}

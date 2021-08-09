@@ -1,0 +1,139 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Deepslate",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobbledDeepslate",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateBricks",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrackedDeepslateBricks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateToDeepslateBricksCrafting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateBricksToCrackedDeepslateBricksSmelting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobbledDeepslateToDeepslateSmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateCoalOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateCoalOreToCoalSmelting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateIronOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateGoldOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateIronOreToIronIngotSmelting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateGoldOreToGoldIngotSmelting",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.deepslate.name": "Deepslate",
+      "tile.deepslategoldore.name": "Deepslate Gold Ore",
+      "tile.cobbleddeepslate.name": "Cobbled Deepslate",
+      "tile.deepslatecoalore.name": "Deepslate Coal Ore",
+      "tile.deepslateironore.name": "Deepslate Iron Ore",
+      "tile.deepslatebricks.name": "Deepslate Bricks",
+      "tile.crackeddeepslatebricks.name": "Cracked Deepslate Bricks"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "rebornbits",
+    "modName": "Reborn Bits",
+    "version": "1.0.0",
+    "author": "lukas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "com.freeranger.rebornbits",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

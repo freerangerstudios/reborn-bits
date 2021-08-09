@@ -1,0 +1,58 @@
+Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\classes\java\api
+Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\resources\api
+Symbol range map extraction starting
+Processing 18 files
+startProcessing "com/freeranger/rebornbits/ClientProxyRebornBits.java" md5: 032a582919e240709a43a911bbeffa70
+endProcessing "com/freeranger/rebornbits/ClientProxyRebornBits.java"
+
+startProcessing "com/freeranger/rebornbits/ElementsRebornBits.java" md5: 62d4fb1982f07ced2a0bcb358dc51f4e
+endProcessing "com/freeranger/rebornbits/ElementsRebornBits.java"
+
+startProcessing "com/freeranger/rebornbits/IProxyRebornBits.java" md5: 8dedeadf2a508b38ecdf2145309b78ff
+endProcessing "com/freeranger/rebornbits/IProxyRebornBits.java"
+
+startProcessing "com/freeranger/rebornbits/RebornBits.java" md5: 9512b312b875f84a569cf48dbf84a702
+endProcessing "com/freeranger/rebornbits/RebornBits.java"
+
+startProcessing "com/freeranger/rebornbits/RebornBitsVariables.java" md5: be3e182b13e750f9ffbe15c8bfd638e9
+endProcessing "com/freeranger/rebornbits/RebornBitsVariables.java"
+
+startProcessing "com/freeranger/rebornbits/ServerProxyRebornBits.java" md5: 356824be2ec51aed27ae0f0c8132d381
+endProcessing "com/freeranger/rebornbits/ServerProxyRebornBits.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockCobbledDeepslate.java" md5: b110d4e1aea62d05e2fdfa3e120f8164
+endProcessing "com/freeranger/rebornbits/block/BlockCobbledDeepslate.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks.java" md5: b1cbd1cd6520334a6a7f86865d6ccdc4
+endProcessing "com/freeranger/rebornbits/block/BlockCrackedDeepslateBricks.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslate.java" md5: e576a3adf3ddc9e3ddf30491d7601af7
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslate.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateBricks.java" md5: 77c2cba714406624a2636bf8e0971309
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslateBricks.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java" md5: 02d2f629cef8ee5b70bf121e62ad0265
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java" md5: 65df4d853b504a4bf36d5663657aafa7
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateIronOre.java" md5: 3e65dcaae4eaa745fa1acd9ad0289c88
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslateIronOre.java"
+
+startProcessing "com/freeranger/rebornbits/item/crafting/RecipeCobbledDeepslateToDeepslateSmelting.java" md5: 2ea4a3dcea573a03a1e58d75c2dd1174
+endProcessing "com/freeranger/rebornbits/item/crafting/RecipeCobbledDeepslateToDeepslateSmelting.java"
+
+startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateBricksToCrackedDeepslateBricksSmelting.java" md5: b018bf1eb749c304eeefbf0bc959535a
+endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateBricksToCrackedDeepslateBricksSmelting.java"
+
+startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting.java" md5: ca707ce40e1aa67945c8908193f78962
+endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting.java"
+
+startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java" md5: 46bbd0b5f3ba0fdb805e4f37f9fbff7e
+endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java"
+
+startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateIronOreToIronIngotSmelting.java" md5: f820c24e1c5ced9cff4c3ab042e89bf3
+endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateIronOreToIronIngotSmelting.java"
+
