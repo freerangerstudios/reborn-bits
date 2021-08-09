@@ -1,4 +1,4 @@
-Processing 18 files
+Processing 20 files
 Start Processing: com/freeranger/rebornbits/ClientProxyRebornBits.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -343,6 +343,45 @@ Import: net.minecraft.block.Block
 Import: com.freeranger.rebornbits.ElementsRebornBits
 End  Processing: com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java
 
+Start Processing: com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateDiamondOre/BlockDeepslateDiamondOre (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/block/BlockDeepslateDiamondOre
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1624,1640]::getItemFromBlock->func_150898_a
+FOUND CONSTR method com/freeranger/rebornbits/block/BlockDeepslateDiamondOre/BlockCustom/BlockCustom ()V com/freeranger/rebornbits/block/BlockDeepslateDiamondOre/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1828,1832]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1849,1867]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1891,1903]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1915,1920]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1971,1982]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1996,2009]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2019,2032]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2042,2057]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2066,2080]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2093,2108]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/init/Items/DIAMOND[2487,2494]::DIAMOND->field_151045_i
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.init.Items
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java
+
 Start Processing: com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java
 New Key: class com/freeranger/rebornbits/ElementsRebornBits
 New Key: class com/freeranger/rebornbits/ElementsRebornBits
@@ -443,6 +482,19 @@ Import: net.minecraft.init.Items
 Import: com.freeranger.rebornbits.block.BlockDeepslateCoalOre
 Import: com.freeranger.rebornbits.ElementsRebornBits
 End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting.java
+
+Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting.java
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+New Key: class com/freeranger/rebornbits/ElementsRebornBits
+FOUND CONSTR method com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting/RecipeDeepslateDiamondOreToDiamondSmelting (Lcom/freeranger/rebornbits/ElementsRebornBits;)V com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting
+Rename field net/minecraft/init/Items/DIAMOND[795,802]::DIAMOND->field_151045_i
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: com.freeranger.rebornbits.block.BlockDeepslateDiamondOre
+Import: com.freeranger.rebornbits.ElementsRebornBits
+End  Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting.java
 
 Start Processing: com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java
 New Key: class com/freeranger/rebornbits/ElementsRebornBits

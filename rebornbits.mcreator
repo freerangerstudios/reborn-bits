@@ -104,6 +104,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DeepslateDiamondOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -116,7 +124,8 @@
       "tile.deepslatecoalore.name": "Deepslate Coal Ore",
       "tile.deepslateironore.name": "Deepslate Iron Ore",
       "tile.deepslatebricks.name": "Deepslate Bricks",
-      "tile.crackeddeepslatebricks.name": "Cracked Deepslate Bricks"
+      "tile.crackeddeepslatebricks.name": "Cracked Deepslate Bricks",
+      "tile.deepslatediamondore.name": "Deepslate Diamond Ore"
     }
   },
   "workspaceSettings": {

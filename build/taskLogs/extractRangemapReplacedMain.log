@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\classes\java\api
 Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\resources\api
 Symbol range map extraction starting
-Processing 18 files
+Processing 20 files
 startProcessing "com/freeranger/rebornbits/ClientProxyRebornBits.java" md5: 032a582919e240709a43a911bbeffa70
 endProcessing "com/freeranger/rebornbits/ClientProxyRebornBits.java"
 
@@ -35,6 +35,9 @@ endProcessing "com/freeranger/rebornbits/block/BlockDeepslateBricks.java"
 startProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java" md5: 02d2f629cef8ee5b70bf121e62ad0265
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java"
 
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java" md5: b223f9477bb236b1cded8a58413d877a
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java"
+
 startProcessing "com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java" md5: 65df4d853b504a4bf36d5663657aafa7
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java"
 
@@ -49,6 +52,9 @@ endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateBricksToCr
 
 startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting.java" md5: ca707ce40e1aa67945c8908193f78962
 endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateCoalOreToCoalSmelting.java"
+
+startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting.java" md5: c5f9697349d976222c43613c6e0a499c
+endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting.java"
 
 startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java" md5: 46bbd0b5f3ba0fdb805e4f37f9fbff7e
 endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java"
