@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\classes\java\api
 Unsupposrted library path: C:\Dev\minecraft\reborn-bits\build\resources\api
 Symbol range map extraction starting
-Processing 20 files
+Processing 22 files
 startProcessing "com/freeranger/rebornbits/ClientProxyRebornBits.java" md5: 032a582919e240709a43a911bbeffa70
 @|com/freeranger/rebornbits/ClientProxyRebornBits.java|8|33|com.freeranger.rebornbits|package|com.freeranger.rebornbits|(file)
 Class Start: com.freeranger.rebornbits.ClientProxyRebornBits
@@ -1301,7 +1301,7 @@ Class Start: com.freeranger.rebornbits.block.BlockDeepslateBricks
 Class End  : com.freeranger.rebornbits.block.BlockDeepslateBricks
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateBricks.java"
 
-startProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java" md5: 02d2f629cef8ee5b70bf121e62ad0265
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java" md5: 50c4dc6991a25ac62c1cc51d8186c5d8
 @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|10|41|com.freeranger.rebornbits.block|package|com.freeranger.rebornbits.block|(file)
 Class Start: com.freeranger.rebornbits.block.BlockDeepslateCoalOre
    @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|937|970|ElementsRebornBits.ModElement.Tag|class|com.freeranger.rebornbits.ElementsRebornBits.ModElement.Tag|false
@@ -1360,39 +1360,55 @@ Class Start: com.freeranger.rebornbits.block.BlockDeepslateCoalOre
          @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1870|1882|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
          @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1883|1892|SoundType|class|net.minecraft.block.SoundType|false
          @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1893|1898|STONE|field|net.minecraft.block.SoundType|STONE
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1905|1920|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1940|1951|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1963|1976|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1986|1999|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2009|2024|setLightOpacity|method|net.minecraft.block.Block|setLightOpacity|(I)Lnet/minecraft/block/Block;
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2035|2049|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2050|2062|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2063|2078|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1905|1916|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1928|1941|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1951|1964|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|1974|1989|setLightOpacity|method|net.minecraft.block.Block|setLightOpacity|(I)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2000|2014|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2015|2027|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2028|2043|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
       Method End: BlockCustom()V
       Method Start: getDrops(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2148|2153|drops|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|drops|0
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2168|2173|world|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|world|1
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2184|2187|pos|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|pos|2
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2201|2206|state|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|state|3
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2212|2219|fortune|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|fortune|4
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2092|2100|Override|class|java.lang.Override|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2116|2124|getDrops|method|net.minecraft.block.Block|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2125|2136|NonNullList|class|net.minecraft.util.NonNullList|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2137|2146|ItemStack|class|net.minecraft.item.ItemStack|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2155|2167|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2175|2183|BlockPos|class|net.minecraft.util.math.BlockPos|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2189|2200|IBlockState|class|net.minecraft.block.state.IBlockState|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2227|2232|drops|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|drops|0
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2233|2236|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2241|2250|ItemStack|class|net.minecraft.item.ItemStack|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2251|2256|Items|class|net.minecraft.init.Items|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2257|2261|COAL|field|net.minecraft.init.Items|COAL
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2113|2118|drops|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|drops|0
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2133|2138|world|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|world|1
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2149|2152|pos|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|pos|2
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2166|2171|state|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|state|3
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2177|2184|fortune|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|fortune|4
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2057|2065|Override|class|java.lang.Override|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2081|2089|getDrops|method|net.minecraft.block.Block|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2090|2101|NonNullList|class|net.minecraft.util.NonNullList|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2102|2111|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2120|2132|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2140|2148|BlockPos|class|net.minecraft.util.math.BlockPos|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2154|2165|IBlockState|class|net.minecraft.block.state.IBlockState|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2218|2225|fortune|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|fortune|4
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2244|2250|RANDOM|field|net.minecraft.block.Block|RANDOM
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2251|2258|nextInt|method|java.util.Random|nextInt|(I)I
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2259|2266|fortune|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|fortune|4
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2396|2401|drops|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|drops|0
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2402|2405|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2410|2419|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2420|2425|Items|class|net.minecraft.init.Items|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2426|2430|COAL|field|net.minecraft.init.Items|COAL
       Method End: getDrops(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V
+      Method Start: getExpDrop(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2504|2509|state|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getExpDrop|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I|state|0
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2524|2530|reader|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getExpDrop|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I|reader|1
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2541|2544|pos|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getExpDrop|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I|pos|2
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2550|2557|fortune|param|com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom|getExpDrop|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I|fortune|3
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2459|2467|Override|class|java.lang.Override|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2481|2491|getExpDrop|method|net.minecraft.block.Block|getExpDrop|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2492|2503|IBlockState|class|net.minecraft.block.state.IBlockState|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2511|2523|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2532|2540|BlockPos|class|net.minecraft.util.math.BlockPos|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2572|2578|RANDOM|field|net.minecraft.block.Block|RANDOM
+         @|com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java|2579|2586|nextInt|method|java.util.Random|nextInt|(I)I
+      Method End: getExpDrop(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
    Class End  : com.freeranger.rebornbits.block.BlockDeepslateCoalOre.BlockCustom
 Class End  : com.freeranger.rebornbits.block.BlockDeepslateCoalOre
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateCoalOre.java"
 
-startProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java" md5: b223f9477bb236b1cded8a58413d877a
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java" md5: 4f18d7b2d7c2a8f64d26500ff6fbefe0
 @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|10|41|com.freeranger.rebornbits.block|package|com.freeranger.rebornbits.block|(file)
 Class Start: com.freeranger.rebornbits.block.BlockDeepslateDiamondOre
    @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|937|970|ElementsRebornBits.ModElement.Tag|class|com.freeranger.rebornbits.ElementsRebornBits.ModElement.Tag|false
@@ -1493,12 +1509,102 @@ Class Start: com.freeranger.rebornbits.block.BlockDeepslateDiamondOre
          @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|2545|2556|IBlockState|class|net.minecraft.block.state.IBlockState|false
          @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|2564|2576|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
          @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|2585|2593|BlockPos|class|net.minecraft.util.math.BlockPos|false
-         @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|2624|2630|RANDOM|field|net.minecraft.block.Block|RANDOM
-         @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|2631|2638|nextInt|method|java.util.Random|nextInt|(I)I
+         @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|2625|2631|RANDOM|field|net.minecraft.block.Block|RANDOM
+         @|com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java|2632|2639|nextInt|method|java.util.Random|nextInt|(I)I
       Method End: getExpDrop(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)I
    Class End  : com.freeranger.rebornbits.block.BlockDeepslateDiamondOre.BlockCustom
 Class End  : com.freeranger.rebornbits.block.BlockDeepslateDiamondOre
 endProcessing "com/freeranger/rebornbits/block/BlockDeepslateDiamondOre.java"
+
+startProcessing "com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java" md5: d5fd40cba8038596e36e6b1b78d8f24c
+@|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|10|41|com.freeranger.rebornbits.block|package|com.freeranger.rebornbits.block|(file)
+Class Start: com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre
+   @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|937|970|ElementsRebornBits.ModElement.Tag|class|com.freeranger.rebornbits.ElementsRebornBits.ModElement.Tag|false
+   @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|985|1009|BlockDeepslateEmeraldOre|class|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|false
+   @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1018|1047|ElementsRebornBits.ModElement|class|com.freeranger.rebornbits.ElementsRebornBits.ModElement|false
+   @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1135|1140|Block|class|net.minecraft.block.Block|false
+   @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1053|1078|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1135|1140|Block|class|net.minecraft.block.Block|false
+   @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1141|1146|block|field|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|block|
+   Method Start: BlockDeepslateEmeraldOre(Lcom/freeranger/rebornbits/ElementsRebornBits;)V
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1208|1216|instance|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|BlockDeepslateEmeraldOre|(Lcom/freeranger/rebornbits/ElementsRebornBits;)V|instance|0
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1164|1188|BlockDeepslateEmeraldOre|method|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|BlockDeepslateEmeraldOre|(Lcom/freeranger/rebornbits/ElementsRebornBits;)V
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1189|1207|ElementsRebornBits|class|com.freeranger.rebornbits.ElementsRebornBits|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1229|1237|instance|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|BlockDeepslateEmeraldOre|(Lcom/freeranger/rebornbits/ElementsRebornBits;)V|instance|0
+   Method End: BlockDeepslateEmeraldOre(Lcom/freeranger/rebornbits/ElementsRebornBits;)V
+   Method Start: initElements()V
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1253|1261|Override|class|java.lang.Override|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1276|1288|initElements|method|com.freeranger.rebornbits.ElementsRebornBits.ModElement|initElements|()V
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1296|1304|elements|field|com.freeranger.rebornbits.ElementsRebornBits.ModElement|elements
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1305|1311|blocks|field|com.freeranger.rebornbits.ElementsRebornBits|blocks
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1312|1315|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1326|1337|BlockCustom|class|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1340|1355|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1384|1392|elements|field|com.freeranger.rebornbits.ElementsRebornBits.ModElement|elements
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1393|1398|items|field|com.freeranger.rebornbits.ElementsRebornBits|items
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1399|1402|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1413|1422|ItemBlock|class|net.minecraft.item.ItemBlock|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1423|1428|block|field|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|block
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1430|1445|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1446|1451|block|field|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|block
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1452|1467|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1564|1569|event|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1482|1490|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1491|1495|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1496|1502|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1507|1515|Override|class|java.lang.Override|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1530|1544|registerModels|method|com.freeranger.rebornbits.ElementsRebornBits.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1545|1563|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1576|1587|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1588|1618|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1619|1623|Item|class|net.minecraft.item.Item|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1624|1640|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1641|1646|block|field|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|block
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1661|1682|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1758|1769|BlockCustom|class|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|false
+      @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1778|1783|Block|class|net.minecraft.block.Block|false
+      Method Start: BlockCustom()V
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1796|1807|BlockCustom|method|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|BlockCustom|()V
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1822|1830|Material|class|net.minecraft.block.material.Material|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1831|1835|ROCK|field|net.minecraft.block.material.Material|ROCK
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1842|1860|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1889|1901|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1902|1911|SoundType|class|net.minecraft.block.SoundType|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1912|1917|STONE|field|net.minecraft.block.SoundType|STONE
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1924|1935|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1947|1960|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1970|1983|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|1993|2008|setLightOpacity|method|net.minecraft.block.Block|setLightOpacity|(I)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2019|2033|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2034|2046|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2047|2062|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+      Method End: BlockCustom()V
+      Method Start: getDrops(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2132|2137|drops|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|drops|0
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2152|2157|world|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|world|1
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2168|2171|pos|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|pos|2
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2185|2190|state|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|state|3
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2196|2203|fortune|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|fortune|4
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2076|2084|Override|class|java.lang.Override|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2100|2108|getDrops|method|net.minecraft.block.Block|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2109|2120|NonNullList|class|net.minecraft.util.NonNullList|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2121|2130|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2139|2151|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2159|2167|BlockPos|class|net.minecraft.util.math.BlockPos|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2173|2184|IBlockState|class|net.minecraft.block.state.IBlockState|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2211|2216|drops|param|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom|getDrops|(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V|drops|0
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2217|2220|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2225|2234|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2235|2240|Items|class|net.minecraft.init.Items|false
+         @|com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java|2241|2248|EMERALD|field|net.minecraft.init.Items|EMERALD
+      Method End: getDrops(Lnet/minecraft/util/NonNullList;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V
+   Class End  : com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre.BlockCustom
+Class End  : com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre
+endProcessing "com/freeranger/rebornbits/block/BlockDeepslateEmeraldOre.java"
 
 startProcessing "com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java" md5: 65df4d853b504a4bf36d5663657aafa7
 @|com/freeranger/rebornbits/block/BlockDeepslateGoldOre.java|10|41|com.freeranger.rebornbits.block|package|com.freeranger.rebornbits.block|(file)
@@ -1758,6 +1864,35 @@ Class Start: com.freeranger.rebornbits.item.crafting.RecipeDeepslateDiamondOreTo
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
 Class End  : com.freeranger.rebornbits.item.crafting.RecipeDeepslateDiamondOreToDiamondSmelting
 endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateDiamondOreToDiamondSmelting.java"
+
+startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java" md5: ef64f5bcfab636fce4b9a897220aad25
+@|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|10|49|com.freeranger.rebornbits.item.crafting|package|com.freeranger.rebornbits.item.crafting|(file)
+Class Start: com.freeranger.rebornbits.item.crafting.RecipeDeepslateEmeraldOreToEmeraldSmelting
+   @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|382|415|ElementsRebornBits.ModElement.Tag|class|com.freeranger.rebornbits.ElementsRebornBits.ModElement.Tag|false
+   @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|430|472|RecipeDeepslateEmeraldOreToEmeraldSmelting|class|com.freeranger.rebornbits.item.crafting.RecipeDeepslateEmeraldOreToEmeraldSmelting|false
+   @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|481|510|ElementsRebornBits.ModElement|class|com.freeranger.rebornbits.ElementsRebornBits.ModElement|false
+   Method Start: RecipeDeepslateEmeraldOreToEmeraldSmelting(Lcom/freeranger/rebornbits/ElementsRebornBits;)V
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|584|592|instance|param|com.freeranger.rebornbits.item.crafting.RecipeDeepslateEmeraldOreToEmeraldSmelting|RecipeDeepslateEmeraldOreToEmeraldSmelting|(Lcom/freeranger/rebornbits/ElementsRebornBits;)V|instance|0
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|522|564|RecipeDeepslateEmeraldOreToEmeraldSmelting|method|com.freeranger.rebornbits.item.crafting.RecipeDeepslateEmeraldOreToEmeraldSmelting|RecipeDeepslateEmeraldOreToEmeraldSmelting|(Lcom/freeranger/rebornbits/ElementsRebornBits;)V
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|565|583|ElementsRebornBits|class|com.freeranger.rebornbits.ElementsRebornBits|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|605|613|instance|param|com.freeranger.rebornbits.item.crafting.RecipeDeepslateEmeraldOreToEmeraldSmelting|RecipeDeepslateEmeraldOreToEmeraldSmelting|(Lcom/freeranger/rebornbits/ElementsRebornBits;)V|instance|0
+   Method End: RecipeDeepslateEmeraldOreToEmeraldSmelting(Lcom/freeranger/rebornbits/ElementsRebornBits;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|680|685|event|param|com.freeranger.rebornbits.item.crafting.RecipeDeepslateEmeraldOreToEmeraldSmelting|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|629|637|Override|class|java.lang.Override|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|652|656|init|method|com.freeranger.rebornbits.ElementsRebornBits.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|657|679|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|692|704|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|705|716|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|721|730|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|731|755|BlockDeepslateEmeraldOre|class|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|756|761|block|field|com.freeranger.rebornbits.block.BlockDeepslateEmeraldOre|block
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|779|788|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|789|794|Items|class|net.minecraft.init.Items|false
+      @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java|795|802|EMERALD|field|net.minecraft.init.Items|EMERALD
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.freeranger.rebornbits.item.crafting.RecipeDeepslateEmeraldOreToEmeraldSmelting
+endProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateEmeraldOreToEmeraldSmelting.java"
 
 startProcessing "com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java" md5: 46bbd0b5f3ba0fdb805e4f37f9fbff7e
 @|com/freeranger/rebornbits/item/crafting/RecipeDeepslateGoldOreToGoldIngotSmelting.java|10|49|com.freeranger.rebornbits.item.crafting|package|com.freeranger.rebornbits.item.crafting|(file)

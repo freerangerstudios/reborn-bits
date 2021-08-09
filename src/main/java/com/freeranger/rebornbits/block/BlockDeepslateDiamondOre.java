@@ -73,7 +73,8 @@ public class BlockDeepslateDiamondOre extends ElementsRebornBits.ModElement {
 
 		@Override
 		public int getExpDrop(IBlockState state, IBlockAccess reader, BlockPos pos, int fortune){
-			return (RANDOM.nextInt(7) + 3) * 2;
+			int xp = RANDOM.nextInt(4) + 3;
+			return xp * 2;
 		}
 	}
 }

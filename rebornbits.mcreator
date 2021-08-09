@@ -112,6 +112,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DeepslateDiamondOreToDiamondSmelting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateEmeraldOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeepslateEmeraldOreToEmeraldSmelting",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -125,6 +149,7 @@
       "tile.deepslateironore.name": "Deepslate Iron Ore",
       "tile.deepslatebricks.name": "Deepslate Bricks",
       "tile.crackeddeepslatebricks.name": "Cracked Deepslate Bricks",
+      "tile.deepslateemeraldore.name": "Deepslate Emerald Ore",
       "tile.deepslatediamondore.name": "Deepslate Diamond Ore"
     }
   },
