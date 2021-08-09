@@ -1,0 +1,32 @@
+{
+  "group": "rebornbits",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "rebornbits:cobbleddeepslate"
+    },
+    "1": {
+      "item": "rebornbits:cobbleddeepslate"
+    },
+    "2": {
+      "item": "rebornbits:cobbleddeepslate"
+    },
+    "3": {
+      "item": "rebornbits:cobbleddeepslate"
+    },
+    "4": {
+      "item": "rebornbits:cobbleddeepslate"
+    },
+    "5": {
+      "item": "rebornbits:cobbleddeepslate"
+    }
+  },
+  "result": {
+    "item": "rebornbits:cobbleddeepslatewall",
+    "count": 6
+  }
+}

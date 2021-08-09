@@ -20,7 +20,6 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockRedstoneOre;
 
 import com.freeranger.rebornbits.ElementsRebornBits;
 
@@ -44,12 +43,12 @@ public class BlockDeepslateRedstoneOre extends ElementsRebornBits.ModElement {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
 				new ModelResourceLocation("rebornbits:deepslateredstoneore", "inventory"));
 	}
-	
-	public static class BlockCustom extends BlockRedstoneOre {
+	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(false);
+			super(Material.ROCK);
 			setUnlocalizedName("deepslateredstoneore");
 			setSoundType(SoundType.STONE);
+			setHarvestLevel("pickaxe", 2);
 			setHardness(4.5F);
 			setResistance(3F);
 			setLightLevel(0F);
@@ -59,16 +58,7 @@ public class BlockDeepslateRedstoneOre extends ElementsRebornBits.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			int dropAmount = 4 + RANDOM.nextInt(2);
-			if(fortune > 0){
-				dropAmount += RANDOM.nextInt(fortune + 1);
-			}
 			drops.add(new ItemStack(Items.REDSTONE, (int) (1)));
-		}
-
-		@Override
-		public int getExpDrop(IBlockState state, IBlockAccess reader, BlockPos pos, int fortune){
-			return 1 + RANDOM.nextInt(5);
 		}
 	}
 }

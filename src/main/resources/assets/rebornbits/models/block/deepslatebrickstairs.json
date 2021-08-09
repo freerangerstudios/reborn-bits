@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "rebornbits:blocks/deepslate_bricks",
+    "top": "rebornbits:blocks/deepslate_bricks",
+    "side": "rebornbits:blocks/deepslate_bricks"
+  }
+}

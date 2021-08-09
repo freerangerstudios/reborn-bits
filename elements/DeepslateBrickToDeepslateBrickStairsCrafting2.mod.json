@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DeepslateBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeepslateBricks"
+      },
+      {
+        "value": "CUSTOM:DeepslateBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeepslateBricks"
+      },
+      {
+        "value": "CUSTOM:DeepslateBricks"
+      },
+      {
+        "value": "CUSTOM:DeepslateBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeepslateBrickStairs"
+    },
+    "name": "deepslatebricktodeepslatebrickstairscrafting2",
+    "namespace": "mod"
+  }
+}

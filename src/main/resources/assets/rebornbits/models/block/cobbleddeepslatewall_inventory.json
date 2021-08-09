@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "rebornbits:blocks/cobbled_deepslate",
+    "particle": "rebornbits:blocks/cobbled_deepslate"
+  }
+}

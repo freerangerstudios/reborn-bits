@@ -20,7 +20,6 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
-import net.minecraft.util.math.MathHelper;
 
 import com.freeranger.rebornbits.ElementsRebornBits;
 
@@ -49,6 +48,7 @@ public class BlockDeepslateCoalOre extends ElementsRebornBits.ModElement {
 			super(Material.ROCK);
 			setUnlocalizedName("deepslatecoalore");
 			setSoundType(SoundType.STONE);
+			setHarvestLevel("pickaxe", 0);
 			setHardness(4.5F);
 			setResistance(3F);
 			setLightLevel(0F);
@@ -58,22 +58,7 @@ public class BlockDeepslateCoalOre extends ElementsRebornBits.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			int dropAmount = 1;
-			if(fortune > 0){
-				int i = RANDOM.nextInt(fortune + 2) - 1;
-
-            	if (i < 0)
-            	{
-                	i = 0;
-            	} 
-            	dropAmount = i+1;
-			}
-			drops.add(new ItemStack(Items.COAL, dropAmount, 0));
-		}
-
-		@Override
-		public int getExpDrop(IBlockState state, IBlockAccess reader, BlockPos pos, int fortune){
-			return MathHelper.getInt(RANDOM, 0, 2);
+			drops.add(new ItemStack(Items.COAL, (int) (1), 0));
 		}
 	}
 }

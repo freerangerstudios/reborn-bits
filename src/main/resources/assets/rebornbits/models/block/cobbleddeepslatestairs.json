@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "rebornbits:blocks/cobbled_deepslate",
+    "top": "rebornbits:blocks/cobbled_deepslate",
+    "side": "rebornbits:blocks/cobbled_deepslate"
+  }
+}

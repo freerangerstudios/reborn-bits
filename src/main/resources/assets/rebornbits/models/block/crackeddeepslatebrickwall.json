@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_side",
+  "textures": {
+    "wall": "rebornbits:blocks/cracked_deepslate_bricks",
+    "particle": "rebornbits:blocks/cracked_deepslate_bricks"
+  }
+}

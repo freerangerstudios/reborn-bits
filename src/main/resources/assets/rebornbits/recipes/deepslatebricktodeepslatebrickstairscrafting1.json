@@ -1,0 +1,33 @@
+{
+  "group": "rebornbits",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "rebornbits:deepslatebricks"
+    },
+    "4": {
+      "item": "rebornbits:deepslatebricks"
+    },
+    "5": {
+      "item": "rebornbits:deepslatebricks"
+    },
+    "6": {
+      "item": "rebornbits:deepslatebricks"
+    },
+    "7": {
+      "item": "rebornbits:deepslatebricks"
+    },
+    "8": {
+      "item": "rebornbits:deepslatebricks"
+    }
+  },
+  "result": {
+    "item": "rebornbits:deepslatebrickstairs",
+    "count": 4
+  }
+}

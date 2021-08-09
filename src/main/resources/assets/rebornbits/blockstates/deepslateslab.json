@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "rebornbits:deepslateslab"
+    },
+    "half=top,variant=default": {
+      "model": "rebornbits:deepslateslab_top"
+    }
+  }
+}

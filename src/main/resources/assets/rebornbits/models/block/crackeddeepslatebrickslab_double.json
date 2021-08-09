@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rebornbits:blocks/cracked_deepslate_bricks",
+    "particle": "rebornbits:blocks/cracked_deepslate_bricks"
+  }
+}
